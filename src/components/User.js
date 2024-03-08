@@ -13,7 +13,7 @@ const User = ({ gender, name, location, email, picture, login, dob }) => {
 
     const saveUserData = (userData) => {
         console.log(userData);
-        axios.post('http://api-user66014.se-rmutl.net/api/user', userData, {
+        axios.post('http://api-user66014.se-rmutl.net/api/saveuser', userData, {
                 headers: {
                     'Content-Type': 'application/json' // ระบุ Content-Type เป็น JSON
                 }
