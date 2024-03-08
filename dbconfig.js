@@ -12,7 +12,7 @@ var dbconfig = {
         host: 'localhost',
         port: '3306',
         user: 'dbuser66',
-        password: 'P@ssw0rd@',
+        password: 'P@ssw0rd',
         database: 'user66014_db'
     }
 };
